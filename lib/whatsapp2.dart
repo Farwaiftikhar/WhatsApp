@@ -166,7 +166,9 @@ class _WhatsAppState extends State<WhatsApp> {
         children: [
           Padding(
             padding: EdgeInsets.only(top: 70,bottom: 70,right: 10),
-       child: FloatingActionButton(child: Icon(Icons.add), onPressed: () {})),
+       child: FloatingActionButton(
+         backgroundColor: Colors.green,
+           child: Icon(Icons.add,), onPressed: () {})),
          SizedBox(
             height: 5,
           ),
